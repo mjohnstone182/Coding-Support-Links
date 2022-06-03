@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(#424B54, #453248);
+    background-size: cover;
+    color: whitesmoke;
+}
+a:link {
+    color: beige;
+}
+
+a:visited {
+    color: beige;
+}
+a:hover {
+    color: beige;
+}
+a:active {
+    color: beige;
+}
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+}
+
+li {
+    padding: 20px;
+}
