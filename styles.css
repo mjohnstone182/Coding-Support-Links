@@ -3,9 +3,13 @@ body {
     background-size: cover;
     color: whitesmoke;
 }
-.list-wrapper {
+.column-one-wrapper {
+    margin-top: 50px;
+}
+.column-one-wrapper, .column-two-wrapper {
     display: flex;
-
+    justify-content: space-evenly;
+    text-align: center;
 
 }
 a:link {
@@ -23,10 +27,17 @@ a:active {
 }
 
 h1 {
-    margin: 40px auto;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #34013b;
 }
 
 li {
     padding: 20px;
+}
+header {
+    font-size: 30px;
+    font-weight: 600;
 }
